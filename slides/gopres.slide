@@ -12,8 +12,6 @@ Liam Hogan
 - Types
 - asdfasdfasdf
 
-* asdf
-
 * What is Go?
 Go is a programming language that was developed by people at google.
 .background ../images/go-letter-logo.png
@@ -42,10 +40,60 @@ Go is a programming language that was developed by people at google.
 * Functions (Improved)
 .play ../code/UpAndRunningWithGo/TwoFunctionsImproved/two-functions-improved.go
 
+* Basics
 
-* Go Basics
+* Deeper Look at Variables
+
+* Deeper Look at Variables
+.play ../code/Basics/DeeperLookAtVariables/VP1/variable-practice01.go /START OMIT/,/END OMIT/
+
+* Deeper Look at Variables - Scope
+.play ../code/Basics/DeeperLookAtVariables/VP2/variable-practice02.go /START OMIT/,/END OMIT/
+
+* Deeper Look at Variables - Zero Values
+.play ../code/Basics/DeeperLookAtVariables/VP3/variable-practice03.go
+
+* Deeper Look at Variables - Short Variable Declaration
+.play ../code/Basics/DeeperLookAtVariables/VP4/variable-practice04.go /START OMIT/,/END OMIT/
+
+* Deeper Look at Variables - Shadowing
+.play ../code/Basics/DeeperLookAtVariables/VP5/variable-practice05.go
 
 * Types
+
+* Introduction to Types
+.play ../code/Basics/Types/LT1/learning-types01.go /START OMIT/,/END OMIT/
+
+* Types - Transformations with Built-In Functions
+.play ../code/Basics/Types/LT2/learning-types02.go /START OMIT/,/END OMIT/
+
+* Types - Inference
+.play ../code/Basics/Types/LT3/learning-types03.go
+
+* Types - Transformations String to Integer
+.play ../code/Basics/Types/LT4/learning-types04.go
+
+* Constants
+
+* Introduction to Constants
+.play ../code/Basics/Constants/C1/constants01.go
+
+* Introduction to Numerical Constants
+.play ../code/Basics/Constants/C2/constants02.go
+
+* Untyped vs. Typed Constants
+.play ../code/Basics/Constants/C3/constants03.go
+
+* String Formatting
+
+* Introduction to String Formatting and Formatting Verbs
+.play ../code/Basics/StringFormatter/SF1/string-format01.go
+
+* Indexing Values
+.play ../code/Basics/StringFormatter/SF2/string-format02.go
+
+* Using fmt.Printf - String Formatting Structs and Pirate Treasure
+.play ../code/Basics/StringFormatter/SF3/string-format03.go
 
 
 * Format your Slides
