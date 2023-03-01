@@ -1,5 +1,6 @@
-/* Packages
-   Every Go program is made up of packages.
+// Packages
+
+/* Every Go program is made up of packages.
    Programs start running in the package main.
    This program uses the packages with import paths "fmt" and "math/rand"
 */

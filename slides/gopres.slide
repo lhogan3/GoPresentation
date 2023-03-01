@@ -28,7 +28,20 @@ Go is a programming language that was developed by people at google.
 * Up and Running with Go
 
 * Ready to Learn About Go
-.play ../code/UpAndRunningWithGo/ready-to-learn-about.go
+.play ../code/UpAndRunningWithGo/ReadyToLearnAbout/ready-to-learn-about.go
+
+* Learning Variables
+.play ../code/UpAndRunningWithGo/LearningVariables/learning-variables.go /START OMIT/,/END OMIT/
+
+* Exported Names
+.play ../code/UpAndRunningWithGo/ExportedNames/exported-names.go
+
+* Functions
+.play ../code/UpAndRunningWithGo/TwoFunctions/two-functions.go
+
+* Functions (Improved)
+.play ../code/UpAndRunningWithGo/TwoFunctionsImproved/two-functions-improved.go
+
 
 * Go Basics
 
