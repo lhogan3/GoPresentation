@@ -71,7 +71,7 @@ Go is a programming language that was developed by people at google.
 .play ../code/Basics/Types/LT3/learning-types03.go
 
 * Types - Transformations String to Integer
-.play ../code/Basics/Types/LT4/learning-types04.go
+.play ../code/Basics/Types/LT4/learning-types04.go /START OMIT/,/END OMIT/
 
 * Constants
 
@@ -79,15 +79,15 @@ Go is a programming language that was developed by people at google.
 .play ../code/Basics/Constants/C1/constants01.go
 
 * Introduction to Numerical Constants
-.play ../code/Basics/Constants/C2/constants02.go
+.play ../code/Basics/Constants/C2/constants02.go /START OMIT/,/END OMIT/
 
 * Untyped vs. Typed Constants
-.play ../code/Basics/Constants/C3/constants03.go
+.play ../code/Basics/Constants/C3/constants03.go /START OMIT/,/END OMIT/
 
 * String Formatting
 
 * Introduction to String Formatting and Formatting Verbs
-.play ../code/Basics/StringFormatter/SF1/string-format01.go
+.play ../code/Basics/StringFormatter/SF1/string-format01.go /START OMIT/,/END OMIT/
 
 * Indexing Values
 .play ../code/Basics/StringFormatter/SF2/string-format02.go

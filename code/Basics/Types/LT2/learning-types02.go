@@ -6,7 +6,6 @@ import (
 )
 // START OMIT
 func main() {
-	// x and y are integers
 	var earth, mars int = 3, 4
 	fmt.Printf("The type of earth is %T and the value is %v\n", earth, earth)
 	fmt.Printf("The type of mars is %T and the value is %v\n", mars, mars)
@@ -22,11 +21,11 @@ func main() {
 	// Inc/Dec statements
 	// add one to earth
 	earth++ // increase by the "untyped constant" 1
-	fmt.Printf("Value increased by 1. Type is still %T and the value is now %v\n", earth, earth)
+	fmt.Printf("Type is still %T and the value is now %v\n", earth, earth)
 
 	// remove one from mars
 	mars--  // decrease by the "untyped constant" 1
-	fmt.Printf("The type of mars has decreased by one. The type is still %T and the value is now %v\n", mars, mars)
+	fmt.Printf("The type is still %T and the value is now %v\n", mars, mars)
 	// All of our operations have been passing by value (not by pointer)
 }
 // END OMIT

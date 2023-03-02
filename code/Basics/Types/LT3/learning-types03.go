@@ -1,5 +1,4 @@
-/* Alta3 Research | Author: RZFeeser
-   Types - inference   */
+// Types - inference
 
    package main
 
