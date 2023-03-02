@@ -42,6 +42,12 @@ Go is a programming language that was developed by people at google.
 
 * Basics
 
+* Basics
+- Deeper Look at Variables
+- Types
+- Constants
+- String Formatting
+
 * Deeper Look at Variables
 
 * Deeper Look at Variables
@@ -81,7 +87,7 @@ Go is a programming language that was developed by people at google.
 * Introduction to Numerical Constants
 .play ../code/Basics/Constants/C2/constants02.go /START OMIT/,/END OMIT/
 
-* Untyped vs. Typed Constants
+* Untyped vs Typed Constants
 .play ../code/Basics/Constants/C3/constants03.go /START OMIT/,/END OMIT/
 
 * String Formatting
@@ -89,11 +95,103 @@ Go is a programming language that was developed by people at google.
 * Introduction to String Formatting and Formatting Verbs
 .play ../code/Basics/StringFormatter/SF1/string-format01.go /START OMIT/,/END OMIT/
 
-* Indexing Values
+* String Formatting - Indexing Values
 .play ../code/Basics/StringFormatter/SF2/string-format02.go
 
 * Using fmt.Printf - String Formatting Structs and Pirate Treasure
 .play ../code/Basics/StringFormatter/SF3/string-format03.go /START OMIT/,/END OMIT/
+
+* Composite Types
+
+* Composite Types
+- Arrays
+- Slices
+- Functions
+- Variadic Functions
+- Structs
+- Receiver Methods (Receiver Functions)
+- Pointers
+
+* Arrays
+
+* Array Basics
+.play ../code/CompositeTypes/Arrays/A1/arrays01.go
+
+* Selecting Value by Index
+.play ../code/CompositeTypes/Arrays/A2/arrays02.go
+
+* Pre-defining Values
+.play ../code/CompositeTypes/Arrays/A3/arrays03.go
+
+* Slices
+
+* Slices Relationship to Arrays
+.play ../code/CompositeTypes/Slices/S1/slices01.go
+
+* Copy and Append
+.play ../code/CompositeTypes/Slices/S2/slices02.go
+
+* Length vs Capacity
+.play ../code/CompositeTypes/Slices/S3/slices03.go
+
+* Functions
+
+* Function Breakdown
+.play ../code/CompositeTypes/GoFunctions/GF1/functions01.go
+
+* Function Returns: "nil"
+.play ../code/CompositeTypes/GoFunctions/GF2/functions02.go
+
+* Function Returns: "error"
+.play ../code/CompositeTypes/GoFunctions/GF3/functions03.go
+
+* Function Literals: Anonymous
+.play ../code/CompositeTypes/GoFunctions/GF4/functions04.go
+
+* Variadic Functions
+
+* Variadic Functions Example
+.play ../code/CompositeTypes/VariadicFunctions/V1/variadic01.go
+
+* Structs
+
+* Introduction to Structs
+.play ../code/CompositeTypes/GoStructs/S1/structs01.go
+
+* Structs Continued
+.play ../code/CompositeTypes/GoStructs/S3/structs03.go
+
+* Receiver Methods (Receiver Functions)
+
+* Defining Methods
+.play ../code/CompositeTypes/GoReceiverFunctionsMethods/M1/methods01.go
+
+* Introduction to Working with Methods
+.play ../code/CompositeTypes/GoReceiverFunctionsMethods/M2/methods02.go
+
+* Value and Pointer Receivers
+.play ../code/CompositeTypes/GoReceiverFunctionsMethods/M3/methods03.go
+
+* Pointers
+
+* Introduction to Pointers
+.play ../code/CompositeTypes/Pointers/P1/points01.go
+
+* Dereference Operations
+.play ../code/CompositeTypes/Pointers/P2/points02.go
+
+* Address-of (&) Operators
+.play ../code/CompositeTypes/Pointers/P3/points03.go
+
+* Why we need Pointers Example: Without Pointers
+.play ../code/CompositeTypes/Pointers/P4/points04.go
+
+* Why we need Pointers Example: With Pointers
+.play ../code/CompositeTypes/Pointers/P5/points05.go
+
+* Other Topics
+- Maps
+
 
 
 * Format your Slides
