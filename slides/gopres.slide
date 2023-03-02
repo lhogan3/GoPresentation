@@ -192,6 +192,76 @@ Go is a programming language that was developed by people at google.
 * Other Topics
 - Maps
 
+* Idiomatic Go
+
+* Idiomatic Go
+- Conditionals
+- Switch
+- Looping
+- Panic, Defer, and Recover
+
+* Conditionals
+
+* If Statements
+.play ../code/IdiomaticGo/Conditionals/C1/conditionals01.go
+
+* If, Else Statements
+.play ../code/IdiomaticGo/Conditionals/C2/conditionals02.go
+
+* If, Else If, Else Statements
+.play ../code/IdiomaticGo/Conditionals/C3/conditionals03.go
+
+* Switch
+
+* Switch Cases and Default Case
+.play ../code/IdiomaticGo/Switch/S1/switch01.go
+
+* Exploring 'switch true' with a Default
+.play ../code/IdiomaticGo/Switch/S2/switch02.go
+
+* Switch with No Default Case
+.play ../code/IdiomaticGo/Switch/S3/switch03.go
+
+* Case with Multiple Expressions
+.play ../code/IdiomaticGo/Switch/S4/switch04.go
+
+* Fallthrough
+.play ../code/IdiomaticGo/Switch/S5/switch05.go
+
+* Looping
+
+* Basic For-Loop
+.play ../code/IdiomaticGo/Looping/L1/looping01.go
+
+* While Loops (well, not really...)
+.play ../code/IdiomaticGo/Looping/L2/looping02.go
+
+* For-Loop Behaving like a While-Loop (Improved)
+.play ../code/IdiomaticGo/Looping/L3/looping03.go
+
+* For-Each Range Loop
+.play ../code/IdiomaticGo/Looping/L4/looping04.go
+
+* Defer, Panic, and Recover
+
+* Defer
+
+* Defer Example: Cleanup Operations on File Creation
+.play ../code/IdiomaticGo/Defer/D1/defer01.go
+
+* Panic
+
+* Calling the Panic Function Directly
+.play ../code/IdiomaticGo/Panic/P1/panic01.go
+
+* Raising a Panic
+.play ../code/IdiomaticGo/Panic/P2/panic02.go
+
+* Resulting Panics from Illegal Conditions
+.play ../code/IdiomaticGo/Panic/P3/panic03.go
+
+* Recover
+
 
 
 * Format your Slides
