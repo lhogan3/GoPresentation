@@ -93,7 +93,7 @@ Go is a programming language that was developed by people at google.
 .play ../code/Basics/StringFormatter/SF2/string-format02.go
 
 * Using fmt.Printf - String Formatting Structs and Pirate Treasure
-.play ../code/Basics/StringFormatter/SF3/string-format03.go
+.play ../code/Basics/StringFormatter/SF3/string-format03.go /START OMIT/,/END OMIT/
 
 
 * Format your Slides
