@@ -1,5 +1,5 @@
 The Go Programming Language
-Tuesday March 7th, 2023
+Tuesday, March 7th, 2023
 
 Liam Hogan
 
@@ -10,7 +10,7 @@ Liam Hogan
 - Up and Running with Go
 - Go Basics
 - Types
-- asdfasdfasdf
+- 
 
 * What is Go?
 Go is a programming language that was developed by people at google.
@@ -276,6 +276,41 @@ Go is a programming language that was developed by people at google.
 
 * Defer, Panic, Recover
 .play ../code/IdiomaticGo/Recover/R2/recover02.go
+
+* Other Topics
+- Reading in Console Input
+- Command Line Arguments and Flags
+- Environment Variables
+- Parsing and Generating `.txt`, `.json`, `.xml`, `.csv`, `.yaml` Files
+- Go Templates
+
+* Beyond the Basics
+
+* Beyond the Basics
+- Interfaces
+- Unit Testing
+- Concurrency with Go Routines
+
+* Interfaces
+
+* Interfaces
+.play ../code/BeyondTheBasics/Interfaces/interfaces01.go
+
+* Unit Testing
+
+* Unit Testing
+.play ../code/BeyondTheBasics/Testing/testing01.go
+
+* Concurrency with Go Routines
+
+* Go Routine Without Wait Group
+.play ../code/BeyondTheBasics/Routines/R1/routines01.go
+
+* Go Routine with Wait Group
+.play ../code/BeyondTheBasics/Routines/R2/routines02.go
+
+* Another Go Routine Example: Mutexes
+.play ../code/BeyondTheBasics/Routines/R3/routines03.go
 
 * Format your Slides
 Let's try *bold*.
