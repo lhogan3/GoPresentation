@@ -1,32 +1,25 @@
-/* Alta3 Research | RZFeeser
-   Refer - no panic, refer or defer   */
+package main
+import "fmt"
 
-   package main
+func printAllOperations(x int, y int) {
+	defer func() {
+		// defer function to escape the panic when y/x runs
+		if r := recover(); r != nil {
+			fmt.Printf("Recovering from panic in printAllOperations error is: %v \n", r)
+			fmt.Println("Proceeding to alternative flow skipping division.")
+			printOperationsSkipDivide(x, y)
+		}
+	}()
+	sum, divide, multiply := x+y, y/x, x*y
+	fmt.Printf("sum=%v, divide=%v, multiply=%v \n", sum, divide, multiply)
+}
+func printOperationsSkipDivide(x int, y int) {
+	sum, multiply := x+y, y*x
+	fmt.Printf("sum=%v, multiply=%v \n", sum, multiply)
+}
 
-   import(
-	   "os"
-	   "io"
-   )
-	   
-   func CopyFile(dstName, srcName string) (written int64, err error) {
-	   src, err := os.Open(srcName)
-	   if err != nil {
-		   return
-	   }
-   
-	   dst, err := os.Create(dstName)
-	   if err != nil {
-		   return
-	   }
-   
-	   written, err = io.Copy(dst, src)
-	   dst.Close()
-	   src.Close()
-	   return
-   }
-   
-   func main() {
-				// new name of our file    // file we are copying
-	   CopyFile("/tmp/example-copy1.txt", "/tmp/example-copy.txt")
-   }
-   
+func main() {
+	x := 0
+	y := 20
+	printAllOperations(x, y)
+}

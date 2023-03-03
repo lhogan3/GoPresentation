@@ -246,6 +246,12 @@ Go is a programming language that was developed by people at google.
 
 * Defer
 
+* Defer Example
+.play ../code/IdiomaticGo/Defer/D2/defer02.go
+
+* Defer Example: Continued
+.play ../code/IdiomaticGo/Defer/D2/defer02.go
+
 * Defer Example: Cleanup Operations on File Creation
 .play ../code/IdiomaticGo/Defer/D1/defer01.go
 
@@ -257,12 +263,19 @@ Go is a programming language that was developed by people at google.
 * Raising a Panic
 .play ../code/IdiomaticGo/Panic/P2/panic02.go
 
+* Panic and Defer Relationship
+.play ../code/IdiomaticGo/Panic/P4/panic04.go
+
 * Resulting Panics from Illegal Conditions
 .play ../code/IdiomaticGo/Panic/P3/panic03.go
 
 * Recover
 
+* Divide Function Improved
+.play ../code/IdiomaticGo/Recover/R1/recover01.go
 
+* Defer, Panic, Recover
+.play ../code/IdiomaticGo/Recover/R2/recover02.go
 
 * Format your Slides
 Let's try *bold*.
