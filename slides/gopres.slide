@@ -39,9 +39,10 @@ I am leveraging the [[https://pkg.go.dev/golang.org/x/tools/present][Go Present]
 
 I did this because I wanted to: 
 
-- To show the versaility of Go
-- Be able to run code snippets within the presentation
-- Strengthen my understanding of Go and Markdown
+- To show the versaility of Go.
+- Be able to run code snippets within the presentation.
+- Strengthen my understanding of Go and Markdown.
+- Have a hosted version of this presentation for viewing now and in the future.
 
 
 (Downside being that theming is a little more complicated, so apologies for the vanilla slides...)
