@@ -1,6 +1,6 @@
 # E&I Dojo Go Presentation: Go Fundamentals
 
-![presentx screenshot](./_assets/hello_world.png)
+![Hello World](./_assets/hello_world.png)
 
 Presentation on the Fundamentals of the Go Programming Language written using the [present tool](https://github.com/golang/tools/tree/master/cmd/present) from Go and syntax highlighting provided by [present-x](https://github.com/soypat/go-presentx).
 
@@ -18,7 +18,7 @@ To install from source: the following commands will generate an executable tool 
 
 ```console
 git clone https://github.com/lhogan3/GoPresentation.git
-cd go-presentx
+cd GoPresentation
 go install
 ```
 `go-presentx` shall be installed to your `$GOPATH/bin`. Add this directory to your `PATH` to be able to call `go-presentx` from console.
