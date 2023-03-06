@@ -67,4 +67,4 @@ pre[class*="language-"] {
 * Presentation by [Liam Hogan](https://github.com/lhogan3)
 * Some examples are from the Go Fundamentals Course hosted by [Alta3 Research](https://alta3.com/)
 * [Same license as Go](https://github.com/golang/go/blob/master/LICENSE). 
-* * Credit to **[The Go Authors.](https://go.dev/AUTHORS)**
+* Credit to **[The Go Authors.](https://go.dev/AUTHORS)**
