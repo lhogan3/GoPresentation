@@ -1,16 +1,14 @@
-# go-presentx
+# E&I Dojo Go Presentation: Go Fundamentals
 
-![presentx screenshot](./_assets/screen1.png)
+![presentx screenshot](./_assets/hello_world.png)
 
-Go's [present tool](https://github.com/golang/tools/tree/master/cmd/present) but with code syntax highlighting. Highlighted code is editable with [some caveats](#about-the-syntax-highlighting-changes)
-
-This is a quick and dirty implementation of [flippeeer's reddit post](https://www.reddit.com/r/golang/comments/jpugtg/today_i_presented_go_to_my_team_the_screen/). You can find a static version at [acanalis's github.io](https://acanalis.github.io/es/presentation/curso-go/go-desde-cero.html).
+Presentation on the Fundamentals of the Go Programming Language written using the [present tool](https://github.com/golang/tools/tree/master/cmd/present) from Go and syntax highlighting provided by [present-x](https://github.com/soypat/go-presentx).
 
 ## Usage
 
 Requires `go-presentx` installed and a prepared directory with `./templates` and `./static` folder. You may clone this repo and run `go-presentx` in the directory to be up and running on [127.0.0.1:3999](http://127.0.0.1:3999/). Go to `slides` link and open a `.slide` file to start a presentation.
 
-You can serve the presentation on the internet configuring `-orighost` flag to your public domain. You may have to configure websockets if using a reverse-proxy like NGINX.
+This presentation is also hosted: go-talks.appspot.com/github.com/lhogan3/GoPresentation/slides/gopres.slide#1
 
 ## Installation
 
@@ -19,7 +17,7 @@ See [releases](https://github.com/soypat/go-presentx/releases) executables for w
 To install from source: the following commands will generate an executable tool for your OS and architecture. Requires Go
 
 ```console
-git clone https://github.com/soypat/go-presentx.git
+git clone https://github.com/lhogan3/GoPresentation.git
 cd go-presentx
 go install
 ```
@@ -66,7 +64,6 @@ pre[class*="language-"] {
 ```
 
 ##  Contributing, License and authors
-
-PRs welcome. I'll look at issues, I'll try to be nice.
-
-idk, [same license as Go](https://github.com/golang/go/blob/master/LICENSE) I guess. Credit to **[The Go Authors.](https://github.com/golang/go/blob/master/AUTHORS)**
+Presentation by Liam Hogan
+Some examples are from the Go Fundamentals Course hosted by [Alta3 Research](https://alta3.com/)
+[same license as Go](https://github.com/golang/go/blob/master/LICENSE). Credit to **[The Go Authors.](https://github.com/golang/go/blob/master/AUTHORS)**
