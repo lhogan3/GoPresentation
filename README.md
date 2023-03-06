@@ -64,6 +64,6 @@ pre[class*="language-"] {
 ```
 
 ##  Contributing, License and authors
-Presentation by Liam Hogan
-Some examples are from the Go Fundamentals Course hosted by [Alta3 Research](https://alta3.com/)
-[same license as Go](https://github.com/golang/go/blob/master/LICENSE). Credit to **[The Go Authors.](https://github.com/golang/go/blob/master/AUTHORS)**
+* Presentation by [Liam Hogan](https://github.com/lhogan3)
+* Some examples are from the Go Fundamentals Course hosted by [Alta3 Research](https://alta3.com/)
+* [Same license as Go](https://github.com/golang/go/blob/master/LICENSE). Credit to **[The Go Authors.](https://github.com/golang/go/blob/master/AUTHORS)**
