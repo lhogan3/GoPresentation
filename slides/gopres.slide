@@ -9,8 +9,9 @@ Liam Hogan
 - Common Usecases
 - Up and Running with Go
 - Go Basics
-- Types
-- 
+- Composite Types
+- Idiomatic Go
+- Beyond the Basics
 
 * What is Go?
 Go is a programming language that was developed by people at google.
@@ -311,6 +312,25 @@ Go is a programming language that was developed by people at google.
 
 * Another Go Routine Example: Mutexes
 .play ../code/BeyondTheBasics/Routines/R3/routines03.go /START OMIT/,/END OMIT/
+
+* Other Topics
+- Executing System Commands
+- Generating Randomness
+- Generating and Handling Errors
+- Sorting
+- Channels
+- Benchmark Testing
+- Test-Driven Development
+- Consuming RESTful APIs
+- HTTP Requests: GET & POST
+- Simple HTTP Servers
+- Simple File Servers
+- Sending Emails and SMTP
+
+* Other Topics (Continued)
+- Database Interactions (SQL and NoSQL)
+- Cobra CLI
+- Interoperability with Prometheus
 
 * Format your Slides
 Let's try *bold*.
