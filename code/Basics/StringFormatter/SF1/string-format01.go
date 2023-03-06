@@ -18,7 +18,7 @@ func main() {
 	fmt.Printf("float3: %E\n", 123400000.0) // basic string printing use %s
 	fmt.Printf("str1: %s\n", "\"string\"") // doublequote strings like Go source, %q 
 	fmt.Printf("str2: %q\n", "\"string\"") // %x renders the string in base-16
-	fmt.Printf("str3: %x\n", "hex this") // with two output characters per byte of input
+	fmt.Printf("str3: %x\n", "hex this") // two output characters per byte of input
 	// specify the width of an integer, use a number after the % in the verb
 	// By default the result will be right-justified and padded with spaces
 	fmt.Printf("width1: |%6d|%6d|\n", 12, 345)

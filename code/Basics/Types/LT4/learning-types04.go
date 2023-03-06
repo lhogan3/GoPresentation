@@ -8,7 +8,6 @@ import (
 )
 // START OMIT
 func main() {
-
 	// create a string via inference
 	s := "33"
 	

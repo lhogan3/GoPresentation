@@ -13,16 +13,38 @@ Liam Hogan
 - Idiomatic Go
 - Beyond the Basics
 
+* Liam Introduction
+
+
 * What is Go?
-Go is a programming language that was developed by people at google.
-.background ../images/go-letter-logo.png
-.image ../images/go-gopher-logo.webp
+- Open-Source programming language developed by Google
+- Inspired by `C` and `Python`
+- Statically Typed
+- Benefits include fast startup time, low runtime overhead, and the ability to run without a Virtual Machine (VM)
+- Versatile language that can be applied to many different Usecases
+.link https://pkg.go.dev/std Robust Standard Library
+
+* Companies Using Go
+.image ../images/companies-using-go.png 500 1000
 
 * Common Usecases
-.image ../images/what-is-possible-with-go-1.png 325 900
-.image ../images/what-is-possible-with-go-2.png 325 200
+- Cloud and Network Services
+- Command-line Interfaces (CLIs)
+- Web Development
+- Development Operations & Site Reliability Engineering
+.link https://go.dev/solutions/#use-cases Go's Documentation on Use Cases
 
-: Common use cases for this include Cloud and Network Services, CLIs and Web Development
+* Another Usecase: Giving Presentations
+I am leveraging the [[https://pkg.go.dev/golang.org/x/tools/present][Go Present]] package for this presentation.
+
+I did this because I wanted to: 
+
+- To show the versaility of Go
+- Be able to run code snippets within the presentation
+- Strengthen my understanding of Go and Markdown
+
+
+(Downside being that theming is a little more complicated, so apologies for the vanilla slides...)
 
 * Up and Running with Go
 
@@ -247,6 +269,11 @@ Go is a programming language that was developed by people at google.
 
 * Defer
 
+* Defer Definition
+- `defer` enables us to prevent the execution of a funtion until a later time.
+- Doesn't run a function, it runs a *function* *call*.
+- Follows last in, first out (LIFO) order. In other words, the last `defer` statement that is called will be the first to be executed. 
+
 * Defer Example
 .play ../code/IdiomaticGo/Defer/D2/defer02.go
 
@@ -257,6 +284,12 @@ Go is a programming language that was developed by people at google.
 .play ../code/IdiomaticGo/Defer/D1/defer01.go /START OMIT/,/END OMIT/
 
 * Panic
+
+* Panic Definition
+- `panic` stops the control flow of our program.
+- We use `panic` when our application enters a state that is cannot recover from.
+- `panic` calls happen after a _deferred_ statment is executed.
+- The program ends after the `panic` statement is run.
 
 * Calling the Panic Function Directly
 .play ../code/IdiomaticGo/Panic/P1/panic01.go
@@ -271,6 +304,11 @@ Go is a programming language that was developed by people at google.
 .play ../code/IdiomaticGo/Panic/P3/panic03.go
 
 * Recover
+
+* Recover Definition
+- `recover` is used to recover from a `panic` .
+- It is only used inside of *deferred* funtions. This is because the deferred function does not stop its execution if the program panics, so the `recover` function stops the panicking when the deferred function is called.
+- If we `panic`, we can choose how to `recover` within the `defer` -red logic that we know will run if there is a panic in the first place. 
 
 * Divide Function Improved
 .play ../code/IdiomaticGo/Recover/R1/recover01.go
@@ -304,6 +342,15 @@ Go is a programming language that was developed by people at google.
 
 * Concurrency with Go Routines
 
+* What is Concurrency?
+- The ability for functions to run independently of each other.
+- Very important in modern software due to the need to execute independent pieces of code as fast as possible without disturbing the overall flow of the program.
+- Go makes this concept very easy to achieve through the use of Go Routines and Wait Groups.
+
+* Go Routines and Wait Groups
+- To kick off a goroutine, simply use the `go` keyword. I.e. "go do this thing now while we continue on here"
+- _Wait_Groups_ can be leveraged to control the parent process to "wait" until all of the other goroutines have completed. 
+
 * Go Routine Without Wait Group
 .play ../code/BeyondTheBasics/Routines/R1/routines01.go
 
@@ -332,8 +379,7 @@ Go is a programming language that was developed by people at google.
 - Cobra CLI
 - Interoperability with Prometheus
 
-* Format your Slides
-Let's try *bold*.
-How do you like _italic_?
-`Program` `Font`
-_A_lot_of_italic_text_
+* Questions? Thank you!
+
+* References
+.link https://go.dev/doc/ Go Docs
