@@ -517,9 +517,6 @@ I did this because I wanted to:
 - Cobra CLI
 - Interoperability with Prometheus
 
-* Questions? Thank you!
-.background ../images/blue.png
-
 * References
 .background ../images/blue.png
 .link https://alta3.com/ Code Examples from Alta3 Research
@@ -527,3 +524,12 @@ I did this because I wanted to:
 .link https://medium.com/@drashti.ved_84172/level-up-your-go-presentations-b4d06fc495e5 Presentation Formatting and Hosting Tutorial
 .link https://medium.com/analytics-vidhya/defer-panic-and-recover-control-flow-concepts-in-go-c84265a05993 Defer, Panic, and Recover Examples
 .link https://github.com/soypat/go-presentx Syntax Highlighting
+
+* Next Steps
+.background ../images/blue.png
+- Take the course through Optum Tech University!
+- [[https://github.com/lhogan3][Follow me on Github]] (Shameless plug...)
+.image ../images/gopher.png 1000 600
+
+* Questions? Thank you!
+.background ../images/blue.png
