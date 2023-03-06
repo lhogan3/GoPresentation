@@ -10,6 +10,8 @@ Requires `go-presentx` installed and a prepared directory with `./templates` and
 
 This presentation is also hosted: go-talks.appspot.com/github.com/lhogan3/GoPresentation/slides/gopres.slide#1
 
+Code Snippets and examples can be found in the `~/code/` directory.
+
 ## Installation
 
 See [releases](https://github.com/soypat/go-presentx/releases) executables for windows/linux/mac binaries.
