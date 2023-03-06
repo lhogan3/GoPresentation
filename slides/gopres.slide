@@ -3,8 +3,22 @@ Tuesday, March 7th, 2023
 
 Liam Hogan
 
+* Follow along!
+.background ../images/blue.png
+You can follow along with me as I give this presentation by going to the hosted version here:
+
+.link https://go-talks.appspot.com/github.com/lhogan3/GoPresentation/slides/gopres.slide#1
+
+
+(Also nice as you can run the code examples as many times as you would like)
+
+Github Repo:
+
+.link https://github.com/lhogan3/GoPresentation
+
+
 *  Agenda
-- Liam Introduction
+.background ../images/blue.png
 - What is Go?
 - Common Usecases
 - Up and Running with Go
@@ -13,21 +27,30 @@ Liam Hogan
 - Idiomatic Go
 - Beyond the Basics
 
-* Liam Introduction
-
+* What is Go?
+.background ../images/blue.png
 
 * What is Go?
-- Open-Source programming language developed by Google
+.background ../images/blue.png
+- Open-Source programming language developed by Google.
 - Inspired by `C` and `Python`
 - Statically Typed
-- Benefits include fast startup time, low runtime overhead, and the ability to run without a Virtual Machine (VM)
+- Built to be simple, high-performing, readable and efficient.
+- Benefits include fast startup time, low runtime overhead, and the ability to run without a Virtual Machine (VM).
 - Versatile language that can be applied to many different Usecases
 .link https://pkg.go.dev/std Robust Standard Library
 
+* Go's Mascots are ~Elite~
+.background ../images/blue.png
+.image ../images/go-logo.png _ 900
+(You can learn more about the Go Gopher [[https://go.dev/blog/gopher][here]].)
+
 * Companies Using Go
-.image ../images/companies-using-go.png 500 1000
+.background ../images/blue.png
+.image ../images/companies-using-go.png _ 1000
 
 * Common Usecases
+.background ../images/blue.png
 - Cloud and Network Services
 - Command-line Interfaces (CLIs)
 - Web Development
@@ -35,6 +58,7 @@ Liam Hogan
 .link https://go.dev/solutions/#use-cases Go's Documentation on Use Cases
 
 * Another Usecase: Giving Presentations
+.background ../images/blue.png
 I am leveraging the [[https://pkg.go.dev/golang.org/x/tools/present][Go Present]] package for this presentation.
 
 I did this because I wanted to: 
@@ -45,89 +69,125 @@ I did this because I wanted to:
 - Have a hosted version of this presentation for viewing now and in the future.
 
 
-(Downside being that theming is a little more complicated, so apologies for the vanilla slides...)
+(Downside being that theming is a little more complicated, so apologies for some of the vanilla slides...)
 
 * Up and Running with Go
+.background ../images/blue.png
 
-* Ready to Learn About Go
+* Up and Running with Go
+.background ../images/blue.png
+- Hello World!
+- Learning Variables
+- Exported Names
+- Functions
+
+* Hello World!
+.background ../images/blue.png
 .play ../code/UpAndRunningWithGo/ReadyToLearnAbout/ready-to-learn-about.go
 
 * Learning Variables
+.background ../images/blue.png
 .play ../code/UpAndRunningWithGo/LearningVariables/learning-variables.go /START OMIT/,/END OMIT/
 
 * Exported Names
+.background ../images/blue.png
 .play ../code/UpAndRunningWithGo/ExportedNames/exported-names.go
 
 * Functions
+.background ../images/blue.png
 .play ../code/UpAndRunningWithGo/TwoFunctions/two-functions.go
 
 * Functions (Improved)
+.background ../images/blue.png
 .play ../code/UpAndRunningWithGo/TwoFunctionsImproved/two-functions-improved.go
 
 * Basics
+.background ../images/blue.png
 
 * Basics
+.background ../images/blue.png
 - Deeper Look at Variables
 - Types
 - Constants
 - String Formatting
 
 * Deeper Look at Variables
+.background ../images/blue.png
 
 * Deeper Look at Variables
+.background ../images/blue.png
 .play ../code/Basics/DeeperLookAtVariables/VP1/variable-practice01.go /START OMIT/,/END OMIT/
 
 * Deeper Look at Variables - Scope
+.background ../images/blue.png
 .play ../code/Basics/DeeperLookAtVariables/VP2/variable-practice02.go /START OMIT/,/END OMIT/
 
 * Deeper Look at Variables - Zero Values
+.background ../images/blue.png
 .play ../code/Basics/DeeperLookAtVariables/VP3/variable-practice03.go
 
 * Deeper Look at Variables - Short Variable Declaration
+.background ../images/blue.png
 .play ../code/Basics/DeeperLookAtVariables/VP4/variable-practice04.go /START OMIT/,/END OMIT/
 
 * Deeper Look at Variables - Shadowing
+.background ../images/blue.png
 .play ../code/Basics/DeeperLookAtVariables/VP5/variable-practice05.go
 
 * Types
+.background ../images/blue.png
 
 * Introduction to Types
+.background ../images/blue.png
 .play ../code/Basics/Types/LT1/learning-types01.go /START OMIT/,/END OMIT/
 
 * Types - Transformations with Built-In Functions
+.background ../images/blue.png
 .play ../code/Basics/Types/LT2/learning-types02.go /START OMIT/,/END OMIT/
 
 * Types - Inference
+.background ../images/blue.png
 .play ../code/Basics/Types/LT3/learning-types03.go
 
 * Types - Transformations String to Integer
+.background ../images/blue.png
 .play ../code/Basics/Types/LT4/learning-types04.go /START OMIT/,/END OMIT/
 
 * Constants
+.background ../images/blue.png
 
 * Introduction to Constants
+.background ../images/blue.png
 .play ../code/Basics/Constants/C1/constants01.go
 
 * Introduction to Numerical Constants
+.background ../images/blue.png
 .play ../code/Basics/Constants/C2/constants02.go /START OMIT/,/END OMIT/
 
 * Untyped vs Typed Constants
+.background ../images/blue.png
 .play ../code/Basics/Constants/C3/constants03.go /START OMIT/,/END OMIT/
 
 * String Formatting
+.background ../images/blue.png
 
 * Introduction to String Formatting and Formatting Verbs
+.background ../images/blue.png
 .play ../code/Basics/StringFormatter/SF1/string-format01.go /START OMIT/,/END OMIT/
 
 * String Formatting - Indexing Values
+.background ../images/blue.png
 .play ../code/Basics/StringFormatter/SF2/string-format02.go
 
 * Using fmt.Printf - String Formatting Structs and Pirate Treasure
+.background ../images/blue.png
 .play ../code/Basics/StringFormatter/SF3/string-format03.go /START OMIT/,/END OMIT/
 
 * Composite Types
+.background ../images/blue.png
 
 * Composite Types
+.background ../images/blue.png
 - Arrays
 - Slices
 - Functions
@@ -137,187 +197,250 @@ I did this because I wanted to:
 - Pointers
 
 * Arrays
+.background ../images/blue.png
 
 * Array Basics
+.background ../images/blue.png
 .play ../code/CompositeTypes/Arrays/A1/arrays01.go
 
 * Selecting Value by Index
+.background ../images/blue.png
 .play ../code/CompositeTypes/Arrays/A2/arrays02.go
 
 * Pre-defining Values
+.background ../images/blue.png
 .play ../code/CompositeTypes/Arrays/A3/arrays03.go
 
 * Slices
+.background ../images/blue.png
 
 * Slices Relationship to Arrays
+.background ../images/blue.png
 .play ../code/CompositeTypes/Slices/S1/slices01.go
 
 * Copy and Append
+.background ../images/blue.png
 .play ../code/CompositeTypes/Slices/S2/slices02.go /START OMIT/,/END OMIT/
 
 * Length vs Capacity
+.background ../images/blue.png
 .play ../code/CompositeTypes/Slices/S3/slices03.go /START OMIT/,/END OMIT/
 
 * Functions
+.background ../images/blue.png
 
 * Function Breakdown
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoFunctions/GF1/functions01.go
 
 * Function Returns: "nil"
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoFunctions/GF2/functions02.go
 
 * Function Returns: "error"
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoFunctions/GF3/functions03.go /START OMIT/,/END OMIT/
 
 * Function Literals: Anonymous
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoFunctions/GF4/functions04.go /START OMIT/,/END OMIT/
 
 * Variadic Functions
+.background ../images/blue.png
 
 * Variadic Functions Example
+.background ../images/blue.png
 .play ../code/CompositeTypes/VariadicFunctions/V1/variadic01.go
 
 * Structs
+.background ../images/blue.png
 
 * Introduction to Structs
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoStructs/S1/structs01.go
 
 * Structs Continued
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoStructs/S3/structs03.go
 
 * Receiver Methods (Receiver Functions)
+.background ../images/blue.png
 
 * Defining Methods
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoReceiverFunctionsMethods/M1/methods01.go /START OMIT/,/END OMIT/
 
 * Introduction to Working with Methods
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoReceiverFunctionsMethods/M2/methods02.go /START OMIT/,/END OMIT/
 
 * Value and Pointer Receivers
+.background ../images/blue.png
 .play ../code/CompositeTypes/GoReceiverFunctionsMethods/M3/methods03.go
 
 * Pointers
+.background ../images/blue.png
 
 * Introduction to Pointers
+.background ../images/blue.png
 .play ../code/CompositeTypes/Pointers/P1/points01.go
 
 * Dereference Operations
+.background ../images/blue.png
 .play ../code/CompositeTypes/Pointers/P2/points02.go
 
 * Address-of (&) Operators
+.background ../images/blue.png
 .play ../code/CompositeTypes/Pointers/P3/points03.go /START OMIT/,/END OMIT/
 
 * Why we need Pointers Example: Without Pointers
+.background ../images/blue.png
 .play ../code/CompositeTypes/Pointers/P4/points04.go
 
 * Why we need Pointers Example: With Pointers
+.background ../images/blue.png
 .play ../code/CompositeTypes/Pointers/P5/points05.go /START OMIT/,/END OMIT/
 
 * Other Topics
+.background ../images/blue.png
 - Maps
 
 * Idiomatic Go
+.background ../images/blue.png
 
 * Idiomatic Go
+.background ../images/blue.png
 - Conditionals
 - Switch
 - Looping
 - Panic, Defer, and Recover
 
 * Conditionals
+.background ../images/blue.png
 
 * If Statements
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Conditionals/C1/conditionals01.go
 
 * If, Else Statements
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Conditionals/C2/conditionals02.go
 
 * If, Else If, Else Statements
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Conditionals/C3/conditionals03.go
 
 * Switch
+.background ../images/blue.png
 
 * Switch Cases and Default Case
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Switch/S1/switch01.go
 
 * Exploring 'switch true' with a Default
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Switch/S2/switch02.go
 
 * Switch with No Default Case
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Switch/S3/switch03.go /START OMIT/,/END OMIT/
 
 * Case with Multiple Expressions
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Switch/S4/switch04.go
 
 * Fallthrough
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Switch/S5/switch05.go /START OMIT/,/END OMIT/
 
 * Looping
+.background ../images/blue.png
 
 * Basic For-Loop
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Looping/L1/looping01.go
 
 * While Loops (well, not really...)
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Looping/L2/looping02.go
 
 * For-Loop Behaving like a While-Loop (Improved)
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Looping/L3/looping03.go
 
 * For-Each Range Loop
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Looping/L4/looping04.go /START OMIT/,/END OMIT/
 
 * Defer, Panic, and Recover
+.background ../images/blue.png
 
 * Defer
+.background ../images/blue.png
 
 * Defer Definition
+.background ../images/blue.png
 - `defer` enables us to prevent the execution of a funtion until a later time.
 - Doesn't run a function, it runs a *function* *call*.
 - Follows last in, first out (LIFO) order. In other words, the last `defer` statement that is called will be the first to be executed. 
 
 * Defer Example
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Defer/D2/defer02.go
 
 * Defer Example: Continued
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Defer/D3/defer03.go
 
 * Defer Example: Cleanup Operations on File Creation
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Defer/D1/defer01.go /START OMIT/,/END OMIT/
 
 * Panic
+.background ../images/blue.png
 
 * Panic Definition
+.background ../images/blue.png
 - `panic` stops the control flow of our program.
 - We use `panic` when our application enters a state that is cannot recover from.
 - `panic` calls happen after a _deferred_ statment is executed.
 - The program ends after the `panic` statement is run.
 
 * Calling the Panic Function Directly
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Panic/P1/panic01.go
 
 * Raising a Panic
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Panic/P2/panic02.go
 
 * Panic and Defer Relationship
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Panic/P4/panic04.go
 
 * Resulting Panics from Illegal Conditions
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Panic/P3/panic03.go
 
 * Recover
+.background ../images/blue.png
 
 * Recover Definition
+.background ../images/blue.png
 - `recover` is used to recover from a `panic` .
 - It is only used inside of *deferred* funtions. This is because the deferred function does not stop its execution if the program panics, so the `recover` function stops the panicking when the deferred function is called.
 - If we `panic`, we can choose how to `recover` within the `defer` -red logic that we know will run if there is a panic in the first place. 
 
 * Divide Function Improved
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Recover/R1/recover01.go
 
 * Defer, Panic, Recover
+.background ../images/blue.png
 .play ../code/IdiomaticGo/Recover/R2/recover02.go /START OMIT/,/END OMIT/
 
 * Other Topics
+.background ../images/blue.png
 - Reading in Console Input
 - Command Line Arguments and Flags
 - Environment Variables
@@ -325,43 +448,56 @@ I did this because I wanted to:
 - Go Templates
 
 * Beyond the Basics
+.background ../images/blue.png
 
 * Beyond the Basics
+.background ../images/blue.png
 - Interfaces
 - Unit Testing
 - Concurrency with Go Routines
 
 * Interfaces
+.background ../images/blue.png
 
 * Interfaces
+.background ../images/blue.png
 .play ../code/BeyondTheBasics/Interfaces/interfaces01.go /START OMIT/,/END OMIT/
 
 * Unit Testing
+.background ../images/blue.png
 
 * Unit Testing
+.background ../images/blue.png
 .play ../code/BeyondTheBasics/Testing/testing01.go /START OMIT/,/END OMIT/
 
 * Concurrency with Go Routines
+.background ../images/blue.png
 
 * What is Concurrency?
+.background ../images/blue.png
 - The ability for functions to run independently of each other.
 - Very important in modern software due to the need to execute independent pieces of code as fast as possible without disturbing the overall flow of the program.
 - Go makes this concept very easy to achieve through the use of Go Routines and Wait Groups.
 
 * Go Routines and Wait Groups
+.background ../images/blue.png
 - To kick off a goroutine, simply use the `go` keyword. I.e. "go do this thing now while we continue on here"
 - _Wait_Groups_ can be leveraged to control the parent process to "wait" until all of the other goroutines have completed. 
 
 * Go Routine Without Wait Group
+.background ../images/blue.png
 .play ../code/BeyondTheBasics/Routines/R1/routines01.go
 
 * Go Routine with Wait Group
+.background ../images/blue.png
 .play ../code/BeyondTheBasics/Routines/R2/routines02.go /START OMIT/,/END OMIT/
 
 * Another Go Routine Example: Mutexes
+.background ../images/blue.png
 .play ../code/BeyondTheBasics/Routines/R3/routines03.go /START OMIT/,/END OMIT/
 
 * Other Topics
+.background ../images/blue.png
 - Executing System Commands
 - Generating Randomness
 - Generating and Handling Errors
@@ -376,11 +512,18 @@ I did this because I wanted to:
 - Sending Emails and SMTP
 
 * Other Topics (Continued)
+.background ../images/blue.png
 - Database Interactions (SQL and NoSQL)
 - Cobra CLI
 - Interoperability with Prometheus
 
 * Questions? Thank you!
+.background ../images/blue.png
 
 * References
+.background ../images/blue.png
+.link https://alta3.com/ Code Examples from Alta3 Research
 .link https://go.dev/doc/ Go Docs
+.link https://medium.com/@drashti.ved_84172/level-up-your-go-presentations-b4d06fc495e5 Presentation Formatting and Hosting Tutorial
+.link https://medium.com/analytics-vidhya/defer-panic-and-recover-control-flow-concepts-in-go-c84265a05993 Defer, Panic, and Recover Examples
+.link https://github.com/soypat/go-presentx Syntax Highlighting

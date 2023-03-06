@@ -16,6 +16,7 @@ import (
 
 // Creating a function main()
 func main() {
+	fmt.Println("Hello World!")
 	fmt.Println("Looks like you are ready to go")
 	fmt.Println("My favorite number is 42")
 	fmt.Println("I can grab random numbers as well", rand.Intn(10))
