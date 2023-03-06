@@ -17,7 +17,6 @@ func printOperationsSkipDivide(x int, y int) {
 	sum, multiply := x+y, y*x
 	fmt.Printf("sum=%v, multiply=%v \n", sum, multiply)
 }
-
 func main() {
 	x := 0
 	y := 20

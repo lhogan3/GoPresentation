@@ -1,22 +1,18 @@
-/* Alta3 Research | RZFeeser
-   Looping - basic for-loop    */
+// Looping - basic for-loop
+package main
+import "fmt"
 
-   package main
+func main() {
 
-   import "fmt"
-   
-   func main() {
-   
-	   total := 0  // init total
-	   
-	   // init;      condition; post statement
-	   for alta := 0; alta < 4; alta++ {
-		   fmt.Println("The value of alta -> ", alta)
-		   
-		   total += alta   // use total to keep track of alta
-	   }
-   
-   fmt.Println("\nThe value of total is", total)
-	   
-   }
-   
+	total := 0  // init total
+	
+	// init;      condition; post statement
+	for dojo := 0; dojo < 4; dojo++ {
+		fmt.Println("The value of dojo -> ", dojo)
+		
+		total += dojo   // use total to keep track of dojo
+	}
+
+	fmt.Println("\nThe value of total is", total)
+	
+}

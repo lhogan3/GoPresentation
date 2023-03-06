@@ -7,6 +7,7 @@ func printAllOperations(x int, y int) {
 }
 
 func main() {
+	// we can trigger a panic by trying to divide by 0, as this is impossible
 	x := 0
 	y := 20
 	printAllOperations(x, y)
