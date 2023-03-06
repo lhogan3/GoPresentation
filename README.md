@@ -8,8 +8,6 @@ Presentation on the Fundamentals of the Go Programming Language written using th
 
 Requires `go-presentx` installed and a prepared directory with `./templates` and `./static` folder. You may clone this repo and run `go-presentx` in the directory to be up and running on [127.0.0.1:3999](http://127.0.0.1:3999/). Go to `slides` link and open a `.slide` file to start a presentation.
 
-[This presentation is also hosted: go-talks.appspot.com/github.com/lhogan3/GoPresentation/slides/gopres.slide#1](go-talks.appspot.com/github.com/lhogan3/GoPresentation/slides/gopres.slide#1)
-
 Code Snippets and examples can be found in the `~/code/` directory.
 
 ## Installation
